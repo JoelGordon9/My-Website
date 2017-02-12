@@ -2,22 +2,26 @@
 <html>
 	<head>
 		<title>Joel Gordon Website</title>
-		<link href="C:\Users\Joel Gordon\Documents\Programming\HTML_Code\My Website\MainPage.css" type="text/css" rel="stylesheet">
+		<link href=".\MainPage.css" type="text/css" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script type = "text/javascript" src ="C:\Users\Joel Gordon\Documents\Programming\HTML_Code\My Website\MainPageScript.js"></script>
+		<script type = "text/javascript" src =".\MainPageScript.js"></script>
+		<link rel = "icon" type = "img/ico" href =".\Pictures\Favicon.ico">
 	</head>
 
 	<body>
 		
 		<h1>Joel Gordon</h1>
-		<p class = "contact">JoelGordon9@gmail.com<br />309-831-8410</p>
-		
+		<div class = "contact">
+			<a href = "mailto:JoelGordon9@gmail.com">JoelGordon9@gmail.com</a>
+			</br>
+			<a href = "tel:+13098318410">309-831-8410</a>
+		</div>
 		
 
-		<h1 class = "sectionHeader">Education</h1>
+		<h2 class = "sectionHeader">Education</h2>
 		<div id="isu">
 			<div class = "sectionInfo" id = "isuSection">
-				<h2>Illinois State University</h2>
+				<h3>Illinois State University</h3>
 				<p>GPA: 3.85<br />Graduation Date: December 2017<br />Skills:</p>
 				<ul>
 					<li>Java Programming</li>
@@ -27,16 +31,17 @@
 				</ul>
 				<p>Current Classes:</p>
 				<ul>
-					<li>Alogrithms and Data Structures</li>
-					<li>Web Development Tech</li>
-					<li>Principles of Operating Systems</li>
+					<li><a href = "./Classes.html#taking">Alogrithms and Data Structures</a></li>
+					<li><a href = "./Classes.html#taking">Web Development Tech</a></li>
+					<li><a href = "./Classes.html#taking">Principles of Operating Systems</a></li>
 				</ul>
+				<p><a href = "./Classes.html#taken">Classes I have taken</a></p>
 			</div>
 		</div>
 
 		<div id="heartland">
 			<div class = "sectionInfo" id = "heartlandSection">
-				<h2>Heartland Community College</h2>
+				<h3>Heartland Community College</h3>
 				<p>GPA: 3.83<br />Graduation Date: May 2015</p>
 				<p>Member of Heartland Community College Honors Society</p>
 				<p>Member of Phi Theta Kappa Honor Society</p>
@@ -44,11 +49,11 @@
 			</div>
 		</div>
 		
-		<h1 class = "sectionHeader">Work Experience</h1>
+		<h2 class = "sectionHeader">Work Experience</h2>
 		
 		<div id = "work">
 			<div>
-				<h2>Mclean Country Unit5</h2>
+				<h3>Mclean Country Unit5</h3>
 				<p>Position: Repair Technician<br />Date: May 2016 - Aug 2016</p>
 				<ul>
 					<li>Was immersed in the teamwork and organization that is needed to complete a robust project of refurbishing and redeploying 6000 laptops.</li>
@@ -56,7 +61,7 @@
 					<li>Repaired laptops back to near mint condition.</li>
 			</div>
 			<div>
-				<h2>Schnucks</h2>
+				<h3>Schnucks</h3>
 				<p>Position: Bagger<br />Date: July 2013 - July 2015</p>
 				<ul>
 					<li>Assisted customers with needs such as walking a blind customer through the store to get her groceries, or assisting customers out to their car.</li>
@@ -67,12 +72,16 @@
 		</div>
 		
 
-			<h1 class = "sectionHeader">Interests</h1>
+			<h2 class = "sectionHeader">Interests</h2>
+
+			
 			<div id = "interests">
-				<h3 id = "SD">Scuba Diving<h3>
-				<h3 id = "SK">Skiing<h3>
-				<h3 id = "AQ">Aquariums<h3>
-				<h3 id = "TT">Table Top Games<h3>
+				<ul>
+					<li id = "SD">Scuba Diving</li>
+					<li id = "SK">Skiing</li>
+					<li id = "AQ">Aquariums</li>
+					<li id = "TT">Table Top Games</li>
+				</ul>
 			</div>
 			<div id = "interestDisplay">
 			</div>

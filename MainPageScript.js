@@ -17,7 +17,7 @@ $(document).ready(function(){
 		function(){
 			$('#heartlandSection').fadeTo(300,0.5);
 		});
-	$('h3').hover(
+	$('#SD, #SK, #AQ, #TT').hover(
 		function(){
 			$(this).css("background-color", "rgb(193,193,193)");
 		},
@@ -25,18 +25,18 @@ $(document).ready(function(){
 			$(this).css("background-color", "#ffffff");
 		});
 		
-	$('h3').click(function(){
+	$('#SD, #SK, #AQ, #TT').click(function(){
 		if($(this).attr('id') === "SD"){
-			$('#interestDisplay').css("background-image", "url('file:///C:/Users/Joel Gordon/Documents/Programming/HTML_Code/My Website/Pictures/194.jpg')");
+			$('#interestDisplay').css("background-image", "url('./Pictures/194.jpg')");
 		}
 		if($(this).attr('id') === "SK"){
-			$('#interestDisplay').css("background-image", "url('file:///C:/Users/Joel Gordon/Documents/Programming/HTML_Code/My Website/Pictures/Skiing.jpg')");
+			$('#interestDisplay').css("background-image", "url('./Pictures/Skiing.jpg')");
 		}
 		if($(this).attr('id') === "AQ"){
-			$('#interestDisplay').css("background-image", "url('file:///C:/Users/Joel Gordon/Documents/Programming/HTML_Code/My Website/Pictures/Aquarium.jpg')");
+			$('#interestDisplay').css("background-image", "url('./Pictures/Aquarium.jpg')");
 		}
 		if($(this).attr('id') === "TT"){
-			$('#interestDisplay').css("background-image", "url('file:///C:/Users/Joel Gordon/Documents/Programming/HTML_Code/My Website/Pictures/TableTop.jpg')");
+			$('#interestDisplay').css("background-image", "url('./Pictures/TableTop.jpg')");
 		}
 		
 	});
